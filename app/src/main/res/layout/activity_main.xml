@@ -1,17 +1,36 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView01"
+    android:background="#ffff00"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    android:background="#ffff00"
     android:orientation="vertical" >
-    <EditText
-        android:layout_margin="20dip"
+    <ImageView
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:minLines="15"
-        android:maxLines="15"
-        android:textSize="12sp"
-        android:editable="false"
-        android:textColor="#000000"
-        android:id="@+id/my_edit"/>
-</LinearLayout>
+        android:id="@+id/image1" />
+    <ImageView
+        android:layout_marginTop="500px"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/image2" />
+    <ImageView
+        android:layout_marginTop="1000px"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/image3" />
+    <ImageView
+        android:layout_marginTop="1500px"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/image4" />
+    <ImageView
+        android:layout_marginTop="2000px"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/image5" />
+</RelativeLayout>
+</ScrollView>

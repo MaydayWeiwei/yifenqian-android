@@ -1,27 +1,37 @@
 package com.yifenqian;
 
 import android.app.Activity;
-import android.os.AsyncTask;
 import android.os.Bundle;
-import android.widget.EditText;
+import android.os.StrictMode;
+import android.widget.ImageView;
 
-import org.apache.http.HttpEntity;
-import org.apache.http.HttpResponse;
-import org.apache.http.client.HttpClient;
-import org.apache.http.client.methods.HttpGet;
-import org.apache.http.impl.client.DefaultHttpClient;
-import org.apache.http.protocol.BasicHttpContext;
-import org.apache.http.protocol.HttpContext;
-
-import java.io.IOException;
-import java.io.InputStream;
+import java.util.ArrayList;
+import java.util.List;
 
 public class Main extends Activity {
     @Override
     public void onCreate(Bundle savedInstanceState) {
+        StrictMode.setThreadPolicy(new StrictMode.ThreadPolicy.Builder()
+                .detectDiskReads().detectDiskWrites().detectNetwork()
+                .penaltyLog().build());
+        StrictMode.setVmPolicy(new StrictMode.VmPolicy.Builder()
+                .detectLeakedSqlLiteObjects().detectLeakedClosableObjects()
+                .penaltyLog().penaltyDeath().build());
+        StrictMode.setThreadPolicy(new StrictMode.ThreadPolicy.Builder()
+                .detectDiskReads().detectDiskWrites().detectNetwork()
+                .penaltyLog().build());
+        StrictMode.setVmPolicy(new StrictMode.VmPolicy.Builder()
+                .detectLeakedSqlLiteObjects().detectLeakedClosableObjects()
+                .penaltyLog().penaltyDeath().build());
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        new LongRunningGetIO().execute();
+        List<ImageView> imageViews = new ArrayList<ImageView>();
+        imageViews.add((ImageView)findViewById(R.id.image1));
+        imageViews.add((ImageView)findViewById(R.id.image2));
+        imageViews.add((ImageView)findViewById(R.id.image3));
+        imageViews.add((ImageView)findViewById(R.id.image4));
+        imageViews.add((ImageView)findViewById(R.id.image5));
+        new MainLoadTask("http://yifenqian.fr/app/api/v1/info/", imageViews).execute();
     }
 
 //    @Override
@@ -31,41 +41,4 @@ public class Main extends Activity {
 //        new LongRunningGetIO().execute();
 //    }
 
-    private class LongRunningGetIO extends AsyncTask <Void, Void, String> {
-
-        protected String getASCIIContentFromEntity(HttpEntity entity) throws IllegalStateException, IOException {
-            InputStream in = entity.getContent();
-            StringBuffer out = new StringBuffer();
-            int n = 1;
-            while (n>0) {
-                byte[] b = new byte[4096];
-                n =  in.read(b);
-                if (n>0) out.append(new String(b, 0, n));
-            }
-            return out.toString();
-        }
-
-        @Override
-        protected String doInBackground(Void... params) {
-            HttpClient httpClient = new DefaultHttpClient();
-            HttpContext localContext = new BasicHttpContext();
-            HttpGet httpGet = new HttpGet("http://yifenqian.fr/app/api/v1/info/");
-            String text = null;
-            try {
-                HttpResponse response = httpClient.execute(httpGet, localContext);
-                HttpEntity entity = response.getEntity();
-                text = getASCIIContentFromEntity(entity);
-            } catch (Exception e) {
-                return e.getLocalizedMessage();
-            }
-            return text;
-        }
-
-        protected void onPostExecute(String results) {
-            if (results!=null) {
-                EditText et = (EditText)findViewById(R.id.my_edit);
-                et.setText(results);
-            }
-        }
-    }
 }

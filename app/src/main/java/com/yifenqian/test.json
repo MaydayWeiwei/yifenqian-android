@@ -1,0 +1,221 @@
+{
+  "tag": "lastInfo",
+  "infoNumber": 20,
+  "releaseDate": 1449334563396,
+  "infoList": [
+    {
+      "id": 73,
+      "brandId": 31,
+      "type": "1",
+      "coverImage": "http://yifenqian.fr/yifenqian/brandLogo/BouyguesTelecom20151204_2222coverImage.jpg",
+      "startTime": 1449259287000,
+      "endTime": 1451516400000,
+      "publishTime": 1449264000000,
+      "title": "布衣格手机套餐全线降价应对撕逼大战！",
+      "likeNumber": 2
+    },
+    {
+      "id": 71,
+      "brandId": 28,
+      "type": "1",
+      "coverImage": "http://yifenqian.fr/yifenqian/brandLogo/InstitutKaritéParis20151204_2208coverImage.jpg",
+      "startTime": 1449250886000,
+      "endTime": 1449442800000,
+      "publishTime": 1449263400000,
+      "title": "巴黎乳木果学院惊喜来袭捏。。",
+      "likeNumber": 0
+    },
+    {
+      "id": 72,
+      "brandId": 29,
+      "type": "1",
+      "coverImage": "http://yifenqian.fr/yifenqian/brandLogo/Clarins20151204_2213coverImage.jpg",
+      "startTime": 1449252802000,
+      "endTime": 1449442800000,
+      "publishTime": 1449263040000,
+      "title": "娇韵诗带你过最美的圣诞哦",
+      "likeNumber": 0
+    },
+    {
+      "id": 69,
+      "brandId": 26,
+      "type": "1",
+      "coverImage": "http://yifenqian.fr/yifenqian/brandLogo/YSLBeaute20151204_0438coverImage.jpg",
+      "startTime": 1449175140000,
+      "endTime": 1449524100000,
+      "publishTime": 1449179100000,
+      "title": "请送我一支圣罗兰（YSL）限量版口红吧",
+      "likeNumber": 6
+    },
+    {
+      "id": 70,
+      "brandId": 27,
+      "type": "1",
+      "coverImage": "http://yifenqian.fr/yifenqian/brandLogo/Marionnaud20151204_0502coverImage.jpg",
+      "startTime": 1449177022000,
+      "endTime": 1449442800000,
+      "publishTime": 1449177600000,
+      "title": "最近需要买彩妆护肤品的童鞋别忘了带上M家的七折",
+      "likeNumber": 4
+    },
+    {
+      "id": 66,
+      "brandId": 23,
+      "type": "1",
+      "coverImage": "http://yifenqian.fr/yifenqian/info//201512/cover66.jpg",
+      "startTime": 1449176700000,
+      "endTime": 1449298800000,
+      "publishTime": 1449175200000,
+      "title": "DHL 3折优惠福利来喽！",
+      "likeNumber": 11
+    },
+    {
+      "id": 68,
+      "brandId": 25,
+      "type": "1",
+      "coverImage": "http://yifenqian.fr/yifenqian/brandLogo/ALGENIST20151204_0410coverImage.jpg",
+      "startTime": 1449173429000,
+      "endTime": 1449298800000,
+      "publishTime": 1449174600000,
+      "title": "这个新兴抗衰老品牌VP折扣喽！价格不到丝芙兰三折！",
+      "likeNumber": 1
+    },
+    {
+      "id": 67,
+      "brandId": 24,
+      "type": "1",
+      "coverImage": "http://yifenqian.fr/yifenqian/brandLogo/Swarovski20151204_0246coverImage.jpeg",
+      "startTime": 1449168407000,
+      "endTime": 1449356340000,
+      "publishTime": 1449169200000,
+      "title": "圣诞礼物？施华洛世奇折扣，赶紧到碗里来！",
+      "likeNumber": 2
+    },
+    {
+      "id": 63,
+      "brandId": 21,
+      "type": "1",
+      "coverImage": "http://yifenqian.fr/yifenqian/brandLogo/Sandro20151203_0453coverImage.jpg",
+      "startTime": 1449089738000,
+      "endTime": 1449205200000,
+      "publishTime": 1449091080000,
+      "title": "Sandro男装 VP折扣还在继续哦！",
+      "likeNumber": 2
+    },
+    {
+      "id": 65,
+      "brandId": 20,
+      "type": "1",
+      "coverImage": "http://yifenqian.fr/yifenqian/brandLogo/Gosport20151203_0438coverImage.jpg",
+      "startTime": 1449091011000,
+      "publishTime": 1449091011000,
+      "title": "GO SPORT 超值代金卷来了哦。。。",
+      "likeNumber": 0
+    },
+    {
+      "id": 64,
+      "brandId": 22,
+      "type": "1",
+      "coverImage": "http://yifenqian.fr/yifenqian/brandLogo/TheKooples20151203_0509coverImage.jpg",
+      "startTime": 1449090582000,
+      "publishTime": 1449090582000,
+      "title": "The Kooples男装+女装， 一个都不能少！超低价VP折扣进行中",
+      "likeNumber": 1
+    },
+    {
+      "id": 62,
+      "brandId": 18,
+      "type": "1",
+      "coverImage": "http://yifenqian.fr/yifenqian/brandLogo/Cook&Coffee20151203_0426coverImage.jpg",
+      "startTime": 1449088006000,
+      "endTime": 1454108400000,
+      "publishTime": 1449088006000,
+      "title": "Cook&Coffee免费烹饪课程来啦~~",
+      "likeNumber": 4
+    },
+    {
+      "id": 39,
+      "brandId": 16,
+      "type": "1",
+      "coverImage": "http://yifenqian.fr/yifenqian/brandLogo/Free20151203_0359coverImage.jpg",
+      "startTime": 1449086356000,
+      "publishTime": 1449086356000,
+      "title": "Free 4欧/月套餐来袭喽 :)",
+      "likeNumber": 4
+    },
+    {
+      "id": 38,
+      "brandId": 15,
+      "type": "1",
+      "coverImage": "http://yifenqian.fr/yifenqian/brandLogo/SOSH20151203_0326coverImage.jpg",
+      "startTime": 1449084408000,
+      "endTime": 1449961200000,
+      "publishTime": 1449084360000,
+      "title": "高大上的Orange终于忍不住了....",
+      "likeNumber": 19
+    },
+    {
+      "id": 61,
+      "brandId": 17,
+      "type": "1",
+      "coverImage": "http://yifenqian.fr/yifenqian/brandLogo/Sennheiser20151203_0408coverImage.jpg",
+      "startTime": 1449000480000,
+      "endTime": 1449039600000,
+      "publishTime": 1449000480000,
+      "title": "【Sennheiser森海赛尔耳机折扣】",
+      "likeNumber": 0
+    },
+    {
+      "id": 24,
+      "brandId": 14,
+      "type": "1",
+      "coverImage": "http://yifenqian.fr/yifenqian/brandLogo/Marshall20151201_0940coverImage.jpg",
+      "endTime": 1448924400000,
+      "publishTime": 1448919000000,
+      "title": "【Marshall马歇尔耳机官网便宜到哭】",
+      "likeNumber": 0
+    },
+    {
+      "id": 20,
+      "brandId": 10,
+      "type": "1",
+      "coverImage": "http://yifenqian.fr/yifenqian/brandLogo/Hippopotamus20151201_0847coverImage.jpg",
+      "endTime": 1449097200000,
+      "publishTime": 1448917200000,
+      "title": "【Hippopotamus河马餐厅半价啦】",
+      "likeNumber": 17
+    },
+    {
+      "id": 23,
+      "brandId": 13,
+      "type": "1",
+      "coverImage": "http://yifenqian.fr/yifenqian/brandLogo/Bose20151201_0929coverImage.jpg",
+      "endTime": 1448837940000,
+      "publishTime": 1448830800000,
+      "title": "【Bose QC20有源消噪耳机五五折扣来啦】",
+      "likeNumber": 14
+    },
+    {
+      "id": 19,
+      "brandId": 9,
+      "type": "1",
+      "coverImage": "http://yifenqian.fr/yifenqian/info//201511/cover19.jpg",
+      "startTime": 1448797883000,
+      "endTime": 1449010800000,
+      "publishTime": 1448797883000,
+      "title": "法国打折优惠之【Auchan 25天折扣月】",
+      "likeNumber": 14
+    },
+    {
+      "id": 21,
+      "brandId": 11,
+      "type": "1",
+      "coverImage": "http://yifenqian.fr/yifenqian/brandLogo/SNCF20151201_0903coverImage.jpg",
+      "startTime": 1448607600000,
+      "endTime": 1448622000000,
+      "publishTime": 1448571600000,
+      "title": "【SNCF 8JOURS车票优惠活动来啦】",
+      "likeNumber": 0
+    }
+  ]
+}
